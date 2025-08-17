@@ -8,6 +8,7 @@ export default defineConfig({
     tailwindcss(),
     react()    
   ],
+  base:'/dashboardperizinanapp/',
   build: {
     rollupOptions: {
       input: {
