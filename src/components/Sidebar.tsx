@@ -86,10 +86,8 @@ const menuItems: MenuItem[] = [
     label: 'Settings',
     icon: Settings,
     subItems: [
-      { id: 'general', label: 'General', href: '/settings/general' },
-      { id: 'security', label: 'Security', href: '/settings/security' },
-      { id: 'notifications', label: 'Notifications', href: '/settings/notifications' },
       { id: 'ui-components', label: 'UI Components', href: '/settings/ui-components' },
+      { id: 'other-ui-components', label: 'Tables Sample', href: '/settings/other-ui-components' },
     ],
   },
 ];

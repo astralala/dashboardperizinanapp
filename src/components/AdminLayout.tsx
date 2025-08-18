@@ -3,6 +3,7 @@ import Header from './Header';
 import Sidebar, { MobileMenu } from './Sidebar';
 import MainContent from './MainContent';
 import UIComponents from './UIComponents';
+import OtherUIComponents from './OtherUIComponents';
 import PageReport from './PageReport';
 
 const AdminLayout: React.FC = () => {
@@ -70,6 +71,8 @@ const AdminLayout: React.FC = () => {
         return <UIComponents />;
       case 'laporan':
         return <PageReport />;
+      case 'other-ui-components':
+        return <OtherUIComponents />;
       default:
         return <MainContent />;
     }
