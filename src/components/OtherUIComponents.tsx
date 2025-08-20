@@ -12,32 +12,32 @@ const OtherUIComponents: React.FC = () => {
 
         <div className="space-y-8">
           
-          {/* Table Section */}
-          <section className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Basic Table</h2>
+          {/* Basic Table responsive Section */}
+          <section className="w-full bg-white rounded-xl p-4 shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">Basic Table</h2>
             <div className="overflow-x-auto">
               <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-100 whitespace-nowrap">
+                <thead className="bg-gray-100">
                   <tr>
-                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase tracking-wider">
+                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase">
                       Name
                     </th>
-                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase tracking-wider">
+                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase">
                       Email
                     </th>
-                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase tracking-wider">
+                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase">
                       Role
                     </th>
-                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase tracking-wider">
+                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase">
                       Joined At
                     </th>
-                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase tracking-wider">
+                    <th className="px-4 py-4 text-left text-xs font-semibold text-slate-900 uppercase">
                       Actions
                     </th>
                   </tr>
                 </thead>
 
-                <tbody className="bg-white divide-y divide-gray-200 whitespace-nowrap">
+                <tbody className="bg-white divide-y divide-gray-200">
                   <tr>
                     <td className="px-4 py-4 text-sm text-slate-900 font-medium">
                       John Doe
@@ -118,12 +118,12 @@ const OtherUIComponents: React.FC = () => {
             </div>
           </section>
 
-          {/* Table with Action Section */}
-          <section className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Action</h2>
+          {/* Table with Action Button responsive Section */}
+          <section className="w-full bg-white rounded-xl p-4 shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Action Button</h2>
             <div className="overflow-x-auto">
               <table className="min-w-full bg-white">
-                <thead className="bg-gray-100 whitespace-nowrap">
+                <thead className="bg-gray-100 ">
                   <tr>
                     <th className="p-4 text-left text-[13px] font-semibold text-slate-900">
                       Name
@@ -143,7 +143,7 @@ const OtherUIComponents: React.FC = () => {
                   </tr>
                 </thead>
 
-                <tbody className="whitespace-nowrap">
+                <tbody className="">
                   <tr className="hover:bg-gray-50">
                     <td className="p-4 text-[15px] text-slate-900 font-medium">
                       John Doe
@@ -343,12 +343,12 @@ const OtherUIComponents: React.FC = () => {
             </div>
           </section>
 
-          {/* Table with Alternate Row Color Section */}
-          <section className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Alternate Row Color</h2>
+          {/* Table with Alternate Row Color responsive Section */}
+          <section className="w-full bg-white rounded-xl p-4 shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Alternate Row Color</h2>
             <div className="overflow-x-auto">
               <table className="min-w-full bg-white">
-                <thead className="bg-gray-800 whitespace-nowrap">
+                <thead className="bg-gray-800 ">
                   <tr>
                     <th className="p-4 text-left text-sm font-medium text-white">
                       Name
@@ -368,7 +368,7 @@ const OtherUIComponents: React.FC = () => {
                   </tr>
                 </thead>
 
-                <tbody className="whitespace-nowrap">
+                <tbody className="">
                   <tr className="even:bg-blue-50">
                     <td className="p-4 text-[15px] text-slate-900 font-medium">
                       John Doe
@@ -607,9 +607,9 @@ const OtherUIComponents: React.FC = () => {
             </div>
           </section>
 
-          {/* TTable with Borders Section */}
-          <section className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Borders</h2>
+          {/* Table with Alternate Row Color responsive Section */}
+          <section className="w-full bg-white rounded-xl p-4 shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">Table with Alternate Row Color</h2>
             <div className="overflow-x-auto p-6">
               <div className="flex gap-4 flex-wrap justify-between items-center mb-4">
                 <div className="flex items-center px-4 py-2 rounded-md bg-white border border-gray-300 overflow-hidden max-w-xs w-full">
@@ -632,7 +632,7 @@ const OtherUIComponents: React.FC = () => {
               </div>
 
               <table className="min-w-full border border-gray-200">
-                <thead className="bg-white whitespace-nowrap">
+                <thead className="bg-white ">
                   <tr className="border-b border-gray-200">
                     <th className="px-4 py-3 text-left text-[13px] font-medium text-slate-600 border-r border-gray-200">
                       Name
@@ -652,7 +652,7 @@ const OtherUIComponents: React.FC = () => {
                   </tr>
                 </thead>
 
-                <tbody className="whitespace-nowrap divide-y divide-gray-200">
+                <tbody className=" divide-y divide-gray-200">
                   <tr className="odd:bg-gray-50">
                     <td className="px-4 py-3 border-r border-gray-200">
                       <div className="flex items-center w-max">

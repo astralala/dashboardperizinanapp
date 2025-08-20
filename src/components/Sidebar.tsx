@@ -166,7 +166,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         </div>
 
         {/* Menu Items */}
-        <nav className="flex-1 px-2 py-4 space-y-1 overflow-hidden">
+        <nav className="flex-1 px-2 py-4 space-y-1 overflow-y-scroll">
           {menuItems.map((item) => {
             const Icon = item.icon;
             const hasSubItems: any = item.subItems && item.subItems.length > 0;
@@ -303,7 +303,7 @@ export const MobileMenu: React.FC<{ isOpen: boolean; onNavigate?: (page: string)
 
   return (
     <div className="lg:hidden bg-white border-b border-gray-200 shadow-lg">
-      <nav className="px-4 py-2 space-y-1 max-h-96 overflow-y-auto">
+      <nav className="px-4 py-2 space-y-1 max-h-196 overflow-y-auto">
         {menuItems.map((item) => {
           const Icon = item.icon;
           const hasSubItems: any = item.subItems && item.subItems.length > 0;
@@ -348,10 +348,10 @@ export const MobileMenu: React.FC<{ isOpen: boolean; onNavigate?: (page: string)
       </nav>
       
       {/* Mobile Footer */}
-      <div className="px-4 py-3 border-t border-gray-200 bg-gray-50">
+      {/*<div className="px-4 py-3 border-t border-gray-200 bg-gray-50">
         <p className="text-sm text-gray-600 font-medium">Admin Panel</p>
         <p className="text-xs text-gray-500">© 2025 All rights reserved</p>
-      </div>
+      </div>*/}
     </div>
   );
 };
