@@ -302,7 +302,7 @@ export const MobileMenu: React.FC<{ isOpen: boolean; onNavigate?: (page: string)
   if (!isOpen) return null;
 
   return (
-    <div className="lg:hidden bg-white border-b border-gray-200 shadow-lg">
+    <div className="lg:hidden bg-white border-b border-gray-200 shadow-lg overflow-y-auto">
       <nav className="px-4 py-2 space-y-1 max-h-196 overflow-y-auto">
         {menuItems.map((item) => {
           const Icon = item.icon;

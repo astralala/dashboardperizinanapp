@@ -92,7 +92,7 @@ const AdminLayout: React.FC = () => {
       </div>
       
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col" onClick={handleMainContentClick}>
+      <div className="flex-1 flex flex-col overflow-x-auto" onClick={handleMainContentClick}>
         <Header 
           onToggleSidebar={toggleSidebar}
           onToggleMobileMenu={toggleMobileMenu}
